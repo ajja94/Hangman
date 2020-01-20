@@ -10,7 +10,7 @@ namespace Hangman
         {
             Random random = new Random((int)DateTime.Now.Ticks);
 
-            string[] wordbank = { "Banan", "Coding", "Beginner", "cat", "attribuets", "loops", "array" };
+            string[] wordbank = { "Banan", "Coding", "Beginner", "cat", "attribute", "loops", "array", "hei", "skyline", "getacademy" };
 
             string wordToGuess = wordbank[random.Next(0, wordbank.Length)];
             string wordToGuessUppercase = wordToGuess.ToUpper();
